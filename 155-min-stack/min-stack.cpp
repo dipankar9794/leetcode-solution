@@ -11,7 +11,7 @@ public:
             min.push(value);
         }
         else{
-            if(value < min.top()){
+            if(value <= min.top()){
                 min.push(value);
             }
             else{
